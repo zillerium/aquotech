@@ -18,6 +18,7 @@ const { userAddress, setUserAddress } = useContext(WalletContext);
 	  </Nav.Link>
         <Nav className="mr-auto">
           <Nav.Link as={Link} href="/" passHref>Home</Nav.Link>
+          <Nav.Link as={Link} href="/Methods" passHref>Methods</Nav.Link>
           <NavDropdown title="About Us" id="basic-nav-dropdown">
             <NavDropdown.Item as={Link} href="/GettingStarted" passHref>About Aquotech</NavDropdown.Item>
           </NavDropdown>
